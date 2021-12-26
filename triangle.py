@@ -3,8 +3,8 @@ def triangle(nb):
         return
     for i in range(nb):
         stars = (i * 2 + 1) * "*"
-        center = stars.center(nb * 2, " ")
-        print(f"{center}")
+        stars = stars.center(nb * 2, " ")
+        print(f"{stars}")
 
 
 triangle(5)
